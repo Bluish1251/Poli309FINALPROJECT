@@ -4,9 +4,15 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os.path
+
+DATASET = "pollresults.csv"
 
 # Load the dataset
-data = pd.read_csv(r'[YOUR FILE PATH GOES HERE)
+data = pd.read_csv(os.path.join(
+    os.path.dirname(__file__),
+    DATASET
+))
 
 # Data Cleaning and Filtering
 education_map = {
