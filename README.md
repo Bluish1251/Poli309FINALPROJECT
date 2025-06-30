@@ -9,13 +9,6 @@ The data comes from the 2024 UMBC Battleground Exit Poll.
 - Uses Python (Pandas, Seaborn, Matplotlib) to clean, analyze, and visualize the data.
 - Outputs a heat map showing the relationship between education and issue prioritization.
 
-## Files
-
-- `pollresults.csv` — Exit poll data.
-- `project_code.py` — Full analysis and heat map code.
-- `polltestcode.py` — Quick test script for data checks.
-- `Figure_1.png` — Example heat map output.
-
 ## Key Tools
 
 - Python
